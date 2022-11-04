@@ -25,6 +25,8 @@ else                                        // Se o ano atual é o ano do site..
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="" id="pageCSS">
     <title><?php echo $tag_title ?></title>
 </head>
 
@@ -37,20 +39,19 @@ else                                        // Se o ano atual é o ano do site..
         </header>
 
         <nav>
-            <a href="/">Início</a>
-            <a href="/contacts">Contatos</a>
-            <a href="/about">Sobre</a>
+            <a class="first" href="/">Início</a>
+            <a class="second" href="/contacts">Contatos</a>
+            <a class="thrird" href="/about">Sobre</a>
         </nav>
 
         <main><?php echo $page_content ?></main>
+
+    </div>    
 
 <footer>
     <div><?php echo $copyright ?><br></div>
     <small><a href="/policies">Políticas de privacidade</a></small>
 </footer>
 
-</div>
-
 </body>
-
 </html>

@@ -8,7 +8,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/inc/_config.php');
  ***********************************************/
 
 // Define o título da página:
-$page_title = 'Sobre...';
+$page_title = 'Sobre';
 
 /**************************************************************
  * Define o conteúdo "visual" da página:                      *
